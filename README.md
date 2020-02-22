@@ -8,7 +8,7 @@ B ME 450<br />
 
 <b>Introduction</b><br>
 
-The latest year of data was downloaded from the OOI of Oregon Shelf Surface Mooring and Oregon Offshore Surface Mooring [1]. The bulk meterology instrument package was selected. The bulk meterology instrument package characterizes weather conditions above the sea surface. Wind speed and rain rate were analyzed over the course of a year for the two locations. 
+The latest year of data was downloaded from the OOI of Oregon Shelf Surface Mooring and Oregon Offshore Surface Mooring [1]. The bulk meterology instrument package was selected. The bulk meterology instrument package characterizes weather conditions above the sea surface. Wind speed and rain rate were analyzed over the course of a year for the two locations. Oregon shelf surface mooring was at 44.6393 degrees North and 124.304 degrees West. Oregon offshore surface mooring was at 44.3811 degrees North and 124.956 degrees West. The distance between the two sites was 59.14 kilometers. 
 
 Problem 1) For each site, plot wind speed (in m/s) and rain rate (in mm/hr) Find these time windows: when it is windy and rainy, when it is rainy but not windy, when it is windy but not rainy, when it is not windy not rainy. Show each time period on 
 your plot (for example, use different colors and have a legend to show which region each color represents)
@@ -38,6 +38,10 @@ Method 2) np.correlate was used to compute covariance of the data at the Oregon 
 Method 3) np.correlate was used to compute covariance of the data at the Oregon shore and offshore rain. After computing correlation, with the covariance and standard deviation of the two sets; correlation was plotted against lags. The method for computing calculation was found from the University of Hawaii [2].
 
 Method 4) To find a relationship between time lag of wind speed and rain rate at the two lags were compared. The distance between the two instruments was factored in to guage wind speed. Visual data of wind from EarthWindMap was considered to ground relationships against another source of data [3].
+
+Method 5) An averaging function was used to first split the data into months then find monthly averages. Average data was plotted for each site and analyzed.
+
+<b>Results</b><br>
 
 
 References
