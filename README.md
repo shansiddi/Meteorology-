@@ -82,7 +82,7 @@ Results 5) Finally, in plotting the average wind velocities the two sites are sh
 <b>figure 7: Monthly Averages [3]</b><br>
 
 <b>Conclusions</b><br>
-Through the covariance, correlation, and average comparison of wind and precipitation data at the Oregon offshore and shelf sites a weather system highway was found. Although the precipitation "waveforms" did not line up exactly, some similarities in the average peaks, namely the June for offshore and the July for shelf, suggests that weather systems travel from one location to the other. The wind data at the two sites was found to correlate strongly (0.63) between the two sites which are approximately 59 km apart. If the wind runs in the same direction then a common weather system can travel along this path. A precipitation correlation of 0.35 with a time lag of 124 days supports this conclusion.    
+Through the covariance, correlation, and average comparison of wind and precipitation data at the Oregon offshore and shelf sites a weather system highway was found. Although the precipitation "waveforms" did not line up exactly, some similarities in the average peaks, namely the June for offshore and the July for shelf, suggests that weather systems travel from one location to the other. The wind data at the two sites was found to correlate strongly (0.63) between the two sites which are approximately 59 km apart. If the wind runs in the same direction then a common weather system can travel along this path. A precipitation correlation of 0.35 with a time lag of 124 days supports this conclusion. Weather systems travel from offshore to the shelf.    
 
 
 References
