@@ -33,9 +33,17 @@ Python scripts in Jupyter Notebook were written to address the problems. See lin
 
 Method 1) Data was loaded into the environment via OOI's M@M interface. Time, rain rate, and wind speed were pulled from the data source and sorted. Time was converted to datetime. Data was split into the following cases when it is windy and rainy, when it is rainy but not windy, when it is windy but not rainy, when it is not windy not rainy. Rain rate and wind speed were plotted on a scatter plot. Cases were represented with axvspan which draws color bars in the background of the plot.
 
-Method 2) 
+Method 2) np.correlate was used to compute covariance of the data at the Oregon shore and offshore wind. After computing correlation, with the covariance and standard deviation of the two sets; correlation was plotted against lags. The method for computing calculation was found from the University of Hawaii [2].
+
+Method 3) np.correlate was used to compute covariance of the data at the Oregon shore and offshore rain. After computing correlation, with the covariance and standard deviation of the two sets; correlation was plotted against lags. The method for computing calculation was found from the University of Hawaii [2].
+
+Method 4) To find a relationship between time lag of wind speed and rain rate at the two lags were compared. The distance between the two instruments was factored in to guage wind speed. Visual data of wind from EarthWindMap was considered to ground relationships against another source of data [3].
 
 
 References
 
 [1] NSF Ocean Observatories Initiative Data Portal, http://ooinet.oceanobservatories.org. Downloaded on (2/21/20).
+
+[2] “Correlation¶,” SEM_EDOF. [Online]. Available: https://currents.soest.hawaii.edu/ocn_data_analysis/_static/SEM_EDOF.html. [Accessed: 21-Feb-2020].
+
+[3] C. Beccario, “a global map of wind, weather, and ocean conditions,” earth. [Online]. Available: https://earth.nullschool.net/. [Accessed: 21-Feb-2020].
