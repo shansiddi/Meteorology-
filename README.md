@@ -7,6 +7,7 @@ B ME 450<br />
 <b>Code Link: https://github.com/shansiddi/Meteorology-/blob/master/main.ipynb</b><br>
 
 <b>Introduction</b><br>
+
 The latest year of data was downloaded from the OOI of Oregon Shelf Surface Mooring and Oregon Offshore Surface Mooring [1]. The bulk meterology instrument package was selected. The bulk meterology instrument package characterizes weather conditions above the sea surface. Wind speed and rain rate were analyzed over the course of a year for the two locations. 
 
 Problem 1) For each site, plot wind speed (in m/s) and rain rate (in mm/hr) Find these time windows: when it is windy and rainy, when it is rainy but not windy, when it is windy but not rainy, when it is not windy not rainy. Show each time period on 
@@ -25,6 +26,14 @@ Which month had the highest rain rate?
 Which month had the lowest rain rate?
 Which month had the highest wind speed?
 Which month had the lowest wind speed?
+
+<b>Methods</b><br>
+
+Python scripts in Jupyter Notebook were written to address the problems. See link at top of readme for complete code.
+
+Method 1) Data was loaded into the environment via OOI's M@M interface. Time, rain rate, and wind speed were pulled from the data source and sorted. Time was converted to datetime. Data was split into the following cases when it is windy and rainy, when it is rainy but not windy, when it is windy but not rainy, when it is not windy not rainy. Rain rate and wind speed were plotted on a scatter plot. Cases were represented with axvspan which draws color bars in the background of the plot.
+
+Method 2) 
 
 
 References
