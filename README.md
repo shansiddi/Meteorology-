@@ -8,7 +8,7 @@ B ME 450<br />
 
 <b>Introduction</b><br>
 
-The latest year of data was downloaded from the OOI of Oregon Shelf Surface Mooring and Oregon Offshore Surface Mooring [1]. The bulk meterology instrument package was selected. The bulk meterology instrument package characterizes weather conditions above the sea surface. Wind speed and rain rate were analyzed over the course of a year for the two locations. Oregon shelf surface mooring was at 44.6393 degrees North and 124.304 degrees West. Oregon offshore surface mooring was at 44.3811 degrees North and 124.956 degrees West. The distance between the two sites was 59.14 kilometers. Relationships between wind an precipitation at the two sites were found through the following problems.
+The latest year of data was downloaded from the OOI of Oregon Shelf Surface Mooring and Oregon Offshore Surface Mooring [1]. The bulk meterology instrument package was selected. The bulk meterology instrument package characterizes weather conditions above the sea surface. Wind speed and rain rate were analyzed over the course of a year for the two locations. Oregon shelf surface mooring was at 44.6393 degrees North and 124.304 degrees West. Oregon offshore surface mooring was at 44.3811 degrees North and 124.956 degrees West. The distance between the two sites was 59.14 kilometers. Relationships between wind and precipitation at the two sites were found through the following problems.
 
 Problem 1) For each site, plot wind speed (in m/s) and rain rate (in mm/hr) Find these time windows: when it is windy and rainy, when it is rainy but not windy, when it is windy but not rainy, when it is not windy not rainy. Show each time period on 
 your plot (for example, use different colors and have a legend to show which region each color represents)
@@ -82,7 +82,7 @@ Results 5) Finally, in plotting the average wind velocities the two sites are sh
 <b>figure 7: Monthly Averages [3]</b><br>
 
 <b>Conclusions</b><br>
-Through the covariance, correlation, and average comparison of wind and precipitation data at the Oregon offshore and shelf sites a weather system highway was found. Although the percipitation "waveforms" did not line up exactly, some similarities in the average peaks, namely the June for offshore and the July for shelf, suggests that weather systems travel from one location to the other. The wind data at the two sites was found to correlate strongly (0.63) between the two sites which are approximately 59 km apart. If the wind runs in the same direction then a common weather system can travel along this path. A correlation of 0.35 with a time lag of 124 days supports this conclusion.    
+Through the covariance, correlation, and average comparison of wind and precipitation data at the Oregon offshore and shelf sites a weather system highway was found. Although the precipitation "waveforms" did not line up exactly, some similarities in the average peaks, namely the June for offshore and the July for shelf, suggests that weather systems travel from one location to the other. The wind data at the two sites was found to correlate strongly (0.63) between the two sites which are approximately 59 km apart. If the wind runs in the same direction then a common weather system can travel along this path. A precipitation correlation of 0.35 with a time lag of 124 days supports this conclusion.    
 
 
 References
