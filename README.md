@@ -43,6 +43,44 @@ Method 5) An averaging function was used to first split the data into months the
 
 <b>Results</b><br>
 
+Results 1) 
+
+![](images/fig1.png)
+<p align="center">
+<b>figure 1: Rain Rate and Wind Versus Time for Both Sites</b><br>
+  
+Results 2)
+
+![](images/fig2.png)
+<p align="center">
+<b>figure 2: Wind Correlation</b><br>
+  
+Results 3)
+
+![](images/fig3.png)
+<p align="center">
+<b>figure 3: Rain Rate Correlation</b><br>
+  
+Results 4)
+
+![](images/fig4.png)
+<p align="center">
+<b>figure 4: Lags of Wind and Rain</b><br>
+  
+![](images/fig5.png)
+<p align="center">
+<b>figure 5: Vector Map Shelf[3]</b><br>
+  
+![](images/fig6.png)
+<p align="center">
+<b>figure 6: Vector Map Offshore[3]</b><br>  
+  
+Results 5)
+
+![](images/fig7.png)
+<p align="center">
+<b>figure 7: Monthly Averages [3]</b><br>
+
 
 References
 
